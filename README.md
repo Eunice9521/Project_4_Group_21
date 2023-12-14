@@ -58,7 +58,10 @@ By leveraging this dataset, we aim to build a robust sentiment analysis model th
   3. Analyzing hashtags and mentions.
   
   ## Modeling
-  We created three Natural Language Processing models and picked the second as our final model. Our model is currently not predicting that any tweets are negative. This is most likely because there were relatively so few negative tweets in our training and test sets. With so few tweets, our model could not accurately identify them. This is evident in the confusion matrix below after running our model prediction.
+  We created three Natural Language Processing models and picked the second as our final model. Our model is currently not predicting that any tweets are negative. This is most likely because there were relatively so few negative tweets in our training and test sets. With so few tweets, our model could not accurately identify them. 
+  ![Score](https://github.com/Eunice9521/Project_4_Group_21/assets/133338843/8ba303bf-aac3-41a7-93a2-3317174c66f0)
+  
+  This is evident in the confusion matrix below after running our model prediction.
   
   
   ## Conclusion
