@@ -2,6 +2,7 @@
 
 # Understanding South by SouthWest
 
+![SXSW](https://github.com/Eunice9521/Project_4_Group_21/assets/133338843/0d9417b4-1ebf-49d5-a063-eee4ff427f6c)
 
 Group Members:
 Karanja Gakio
@@ -32,6 +33,7 @@ By leveraging this dataset, we aim to build a robust sentiment analysis model th
 ## Business Objectives
  1. To find out the most commonly used words in negative sentiments.
   #### 1. WordCloud showing most commonly used words in negative sentiments
+  
  2. To identify the most commonly used words in positive sentiments.
  #### 2. WordCloud showing most commonly used words in positive sentiments
  3. Product sentiment analysis.
