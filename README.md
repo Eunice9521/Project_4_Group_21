@@ -61,40 +61,48 @@ By leveraging this dataset, we aim to build a robust sentiment analysis model th
   3. Analyzing hashtags and mentions.
   
   ## Modeling
-  We created three Natural Language Processing models and picked the second as our final model. Our model is currently not predicting that any tweets are negative. This is most likely because there were relatively so few negative tweets in our training and test sets. With so few tweets, our model could not accurately identify them. 
+  We created four Natural Language Processing models and picked the SVM as our final model. 
+  
   ![Final model](https://github.com/Eunice9521/Project_4_Group_21/assets/133338843/73389051-c499-4c2d-955b-b558500cdb0a)
   
   This is evident in the confusion matrix below after running our model prediction.
 
-  ![Confusion matrix](https://github.com/Eunice9521/Project_4_Group_21/assets/133338843/a51bbb93-0402-4992-a773-e272833363a3)
+![New Confusion Matrix](https://github.com/Eunice9521/Project_4_Group_21/assets/133338843/b136cf35-e360-4980-b429-18eba5d47b4c)
 
   
   ## Conclusion
   
-1.  Looking closely, there are some words that We would expect to see in each word cloud. For example, 'great', 'awesome', and 'cool' in the positive word cloud and 'fail', 'headache', and 'fascist' in the negative word cloud. The sentiments surrounding a brand are one of the most important factors to consider for a good customer experience. This is also reflected in brand loyalty, where positive sentiments result in good reviews and recommendations, while negative sentiments increase customer churn rates. 
-  
-2.  Product sentiment analysis.
-   
-   a) Apple Product: Negative Emotion: 7.8% Neutral Emotion: 60.6% Positive Emotion: 31.6%
+1. Brand Sentiment Impact: Key words in positive and negative word clouds are vital indicators, influencing customer loyalty and reviews.
 
-  b) Google Product: Negative Emotion: 5.4% Neutral Emotion: 70.2% Positive Emotion: 24.4%
+2. Product Sentiment Analysis:
 
-  c) Unknown Product: Negative Emotion: 0.1% Neutral Emotion: 98.3% Positive Emotion: 1.6%
-  
- 3. Market Research
-  Diving into which products are tweeted about favorably vs which ones are not. As we have already noticed, Apple has many more favorable tweets than Google does. This could help SXSW know which vendors are worth inviting/promoting.
-  
-  After our natural language processing, our model is performing at 60.8% on our testing set.
+a) Apple Product:
 
-Although we would prefer a model that performs at a higher level, we were constricted by the dataset. The dataset our model trained on included a much higher level of 'No Emotion' (60.2%) tweets than 'Positive' or 'Negative' tweets combined (39.8%).
+Negative: 7.8%, Neutral: 60.6%, Positive: 31.6%
+
+b) Google Product:
+
+Negative: 5.4%, Neutral: 70.2%, Positive: 24.4%
+
+c) Unknown Product:
+
+Negative: 0.1%, Neutral: 98.3%, Positive: 1.6%
+
+3. Market Research Insights: Varied sentiments for different products, e.g., more positive tweets for Apple, offer strategic guidance for SXSW.
+
+4. Model Performance Overview: Post natural language processing, our model achieves 68.68% accuracy, excelling in neutral emotion recognition. Adjustments are needed for improved handling of negative and positive emotions and serves as a robust foundation for further refinement.
   
   ## Recommendation
   
- 1. Working with the dataset that we currently have We would recommend using the wordclouds to compare commonly used words and pull out the ones that are specificly linked to positive or negative tweets. SXSW can then flag tweets with these words to identify sentiment.
+1. Wordcloud Analysis: Utilize word clouds to compare frequently used words and identify those specifically associated with positive or negative sentiments. This approach can assist SXSW in flagging tweets containing these distinct words for sentiment identification.
 
-2. We believe that by collecting more tweets that are identified as positive or negative and increasing the number of tweets our model trains on, We would have the information needed to make more accurate recommendations.
+2. Augmenting Dataset for Imbalance: Address the class imbalance by collecting more tweets labeled as positive or negative. Increasing the training data for these sentiments can enhance the model's accuracy and improve sentiment categorization.
 
-3. Identifying and removing more SXSW specific stopwords could distill our tokens to words that have a semantic value.
+3. Refining Stopwords and Tokenization: Identify and remove additional SXSW-specific stopwords to refine tokenization. This process aims to focus on words with more semantic value, contributing to a more accurate sentiment analysis.
+
+4. Hyperparameter Tuning: Explore hyperparameter tuning for the SVM model and other potential algorithms. Adjusting parameters can optimize the model's performance, making it more adept at distinguishing between various emotional sentiments.
+
+These strategies collectively contribute to a comprehensive approach for improving sentiment analysis, addressing challenges, and enhancing the model's effectiveness in capturing nuanced emotions related to SXSW.
 
 ## Next Steps
 1. Exploring sentiments for specific products.
