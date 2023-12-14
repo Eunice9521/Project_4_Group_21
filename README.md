@@ -62,8 +62,7 @@ By leveraging this dataset, we aim to build a robust sentiment analysis model th
   
   ## Modeling
   We created three Natural Language Processing models and picked the second as our final model. Our model is currently not predicting that any tweets are negative. This is most likely because there were relatively so few negative tweets in our training and test sets. With so few tweets, our model could not accurately identify them. 
-  
-  ![Score](https://github.com/Eunice9521/Project_4_Group_21/assets/133338843/8ba303bf-aac3-41a7-93a2-3317174c66f0)
+  ![Final model](https://github.com/Eunice9521/Project_4_Group_21/assets/133338843/73389051-c499-4c2d-955b-b558500cdb0a)
   
   This is evident in the confusion matrix below after running our model prediction.
 
