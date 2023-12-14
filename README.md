@@ -34,7 +34,10 @@ By leveraging this dataset, we aim to build a robust sentiment analysis model th
  1. To find out the most commonly used words in negative sentiments.
   #### 1. WordCloud showing most commonly used words in negative sentiments
   ![Negative Emotion wordcloud](https://github.com/Eunice9521/Project_4_Group_21/assets/133338843/3f7566a8-1e7f-4a41-978f-655339db95d8)
+ 
  2. To identify the most commonly used words in positive sentiments.
+    ![Positive emotion wordcloud](https://github.com/Eunice9521/Project_4_Group_21/assets/133338843/b4ce62cf-1deb-4a23-a958-f89e92bf52e5)
+ 
  #### 2. WordCloud showing most commonly used words in positive sentiments
  3. Product sentiment analysis.
  #### 3. Bargraph showing sentiment distribution per product
