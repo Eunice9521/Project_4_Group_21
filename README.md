@@ -42,7 +42,7 @@ By leveraging this dataset, we aim to build a robust sentiment analysis model th
  
  4. Product sentiment analysis.
  #### 3. Bargraph showing sentiment distribution per product
-
+![Sentiment distribution per product](https://github.com/Eunice9521/Project_4_Group_21/assets/133338843/b481922c-7db9-41be-b5f9-16e17ba415d6)
 
  4. Market research.
  
